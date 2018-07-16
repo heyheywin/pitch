@@ -1,0 +1,23 @@
+.button {
+  border: 3px solid #EE6055;
+  width: 10%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #EE6055;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EE6055;
+}
+
+.button:hover {
+  background-color: #EE6055;
+  color: #FFFFFF;
+}
+
+.btn-text {
+  margin: auto;
+}
+

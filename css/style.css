@@ -1,0 +1,116 @@
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/sample.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: 'Varela Round', sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+
+.action-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(245,245,245);
+}
+
+.commodity {
+  color: rgba(20,20,20);
+}
+
+
+
+.sharing {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/co-working.jpg.jpg');
+}
+
+
+img {
+ max-height: 75%;
+ max-width: 100%;
+}
+
+.security-container {
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(245,245,245);
+  color: rgba(30,30,30);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 60%;
+}
+
+
+
+.security-text {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+  padding-top: 40px
+}
+
+.users {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+
+#map-pin {
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.fas{
+  font-size: 150px;
+  color: #EE6055;
+}
+
+p {
+  color: #878E88;
+}
+
+.competitive-container {
+  text-align: center;
+  height:100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 60%；
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/competitrs.jpg');
+}
+
+.competitive-text {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+  padding-top: 20px;
+}
+
+#airtasker {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+#fiverr {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  margin: auto;
+  padding-bottom: 250px;
+}
+
+
+.competitive-text{
+  color: white;
+}
+
